@@ -1,0 +1,22 @@
+h3 {
+    text-align: center;
+}
+
+.name {
+    margin: 10px;
+}
+
+.human {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.age {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form-group {
+    padding: 20px 0px;
+}

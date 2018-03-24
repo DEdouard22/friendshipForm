@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>David's Movie Match Form</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>David's Movie Mate Match Form</h3>
+            <h6>Movies are no fun alone...Fill out the form below to find out if we're Movie Mates!</h6>
+        </header>
+        <main>
+            <form class="name">
+                <div class="row">
+                    <div class="col">
+                        <label for="inputFirstName">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <label for="inputLastName">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+            </form >
+            <div class="gender">
+                <div class="human">
+                    <select class="custom-select">
+                        <option selected>Are you human?</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">NOPE! :)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="age">
+                <h6>What age group are you in?</h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">18 - 25</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">26 - 30</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline3">31 - 35</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline4">36 - 40</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline5">41 - 45</label>
+                </div>
+            </div>
+
+            <form class="movieSelect">
+                <h6>What are your favorite movie genres? Select all that apply.</h6>
+                <div class="row">
+                    <div class="col">   
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Action</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                <label class="custom-control-label" for="customCheck2">Anime</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                <label class="custom-control-label" for="customCheck3">Classics</label>
+                        </div>
+                    </div> 
+                    <div class="col">     
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                <label class="custom-control-label" for="customCheck4">Comedy</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                <label class="custom-control-label" for="customCheck5">Drama</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                <label class="custom-control-label" for="customCheck6">Horror</label>
+                        </div>
+                    </div> 
+                    <div class="col">     
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                <label class="custom-control-label" for="customCheck7">Romance</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                <label class="custom-control-label" for="customCheck8">Sci-Fi</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                <label class="custom-control-label" for="customCheck9">Thrillers</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Please enter any addtional comments or concerns that you would like to share prior to booking a showtime.</label>                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>    
+            </form>    
+            <a class="btn btn-primary" href="mailto:edouard.david22@gmail.com" role="button">Submit Form</a>            
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
